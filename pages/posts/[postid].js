@@ -3,7 +3,7 @@ import { Box, Heading, Text } from "@chakra-ui/layout";
 import { Link } from "@chakra-ui/react";
 import { Link as NextLink } from "next/link";
 
-export const PostExample = () => {
+const PostExample = () => {
 	return (
 		<Box>
 			<Heading>Dynamic Route Post Page</Heading>
@@ -28,3 +28,5 @@ export const PostExample = () => {
 		</Box>
 	);
 };
+
+export default PostExample
